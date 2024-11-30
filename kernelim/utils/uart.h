@@ -1,0 +1,11 @@
+void uart_init2();
+void uart_send2(char c);
+void uart_puts(char *s);
+void uart_sendString(char* string,int size);
+void kprint(char* str,unsigned int size);
+void uart_print_hex(unsigned long value);
+void uart_print_address(void* addr);
+void kprintf(char *fmt, ...);
+void strncpy(char *dest, const char *src, int strsize);
+void uart_getstring(char *buffer, int max_len);
+void stdoutToConsole();
